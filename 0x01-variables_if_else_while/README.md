@@ -1,0 +1,1 @@
+This project covers; arithmatic operators and how to use them, logical operators,relational operators, values considered true and false, boolean operators, using if, if...else, using comments, while, while loop, printf, ASCII character sett & the purpose of gcc flags -m32 and m64
