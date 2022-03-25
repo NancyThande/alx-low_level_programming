@@ -7,25 +7,26 @@
  */
 int main(void)
 {
-	long int i, j, k, next;
+	int counter = 2;
 
-	j = 1;
+	float a = 1;
+	float b = a + 1;
+	float c = a + b;
 
-	k = 2;
-
-	for (i = 1; i <= 98; ++i)
+	printf("%.0f, ", a);
+	printf("%.0f, ", b);
+	while (counter < 98)
 	{
-		if (j != 135301852344706746049)
+		counter++;
+		printf("%.0f", c);
+		a = b;
+		b = c;
+		c = a + b;
+		if (counter < 98)
 		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n", j);
+			printf(", ");
 		}
-		next = j + k;
-		j = k;
-		k = next;
 	}
-
+	printf("\n");
 	return (0);
 }
