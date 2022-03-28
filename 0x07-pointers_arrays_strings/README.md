@@ -1,0 +1,1 @@
+This project is on pointers and multi-dimensional arrays in C programming. It will cover; what are pointers and how to use them, what multidimensional arrays are and how to use them and the most common C standard library functions to manipulate. 
